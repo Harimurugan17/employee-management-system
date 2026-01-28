@@ -21,8 +21,10 @@ public class User {
     @Column(nullable = false)
     private String password;
 
+    @Column(nullable = false)
     private String role; // e.g., "USER", "ADMIN"
 
+    
     public Long getId() {
         return id;
     }
